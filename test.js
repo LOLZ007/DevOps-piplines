@@ -1,3 +1,5 @@
 console.timeLog('starting test');
 
-setTimeout(console.log(''), 5000);
+setTimeout(() => {
+  console.log("Test finished!");
+}, 1000);
